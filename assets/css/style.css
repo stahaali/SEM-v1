@@ -482,7 +482,7 @@ section.packages-section
 }
 .pricing-div
 {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 20px 20px 35px 20px;
 }
@@ -541,6 +541,10 @@ section.packages-section
 .pricing-slider .owl-item .pricing-div 
 {
     transform: scale(1);
+}
+.pricing-slider .owl-item.center .pricing-div 
+{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .pricing-slider .owl-item:not(.center) .pricing-div 
 {
