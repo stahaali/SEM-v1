@@ -7,9 +7,9 @@ $('.pricing-slider').owlCarousel({
     loop:true,
     nav:false,
     center: true,
-    // autoplay: true,
+    autoplay: true,
     margin:0,
-    // autoPlaySpeed: 300,
+    autoPlaySpeed: 300,
     startPosition: 1,
     endPosition: 6,
     responsive:{
