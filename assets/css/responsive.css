@@ -1,0 +1,1013 @@
+@media(max-width:1366px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
+    section.homebanner .glow3
+    {
+        right: 0;
+    }
+    section.packages-section
+    {
+        overflow: hidden;
+    }
+    .progress-bar-banner4
+    {
+        right: -148px;
+    }
+    .progress-bar-banner6
+    {
+        right:-144px;
+    }
+    .workflow-outer:before 
+    {
+        content: '';
+        position: absolute;
+        right: 49%;
+        bottom: -2px;
+        width: 2px;
+        height: 21px;
+        background: #fff;
+        transform: translate(-50%, 0);
+    }
+}
+@media(max-width:1024px)
+{
+    .display-none01
+    {
+       display:none;
+    }
+     .workflow-outer:before
+    {
+       display:none;
+    }
+    .workflow-number1 p
+    {
+       top: 4px;
+       font-size: 42px;
+    }
+    .workflow-div1
+    {
+        margin:0px;
+    }
+    .workflow-div01
+    {
+       border-top: 2px solid #fff;
+       border-left: 2px solid #fff;
+       border-right: 2px solid #fff;
+       border-bottom: 2px solid #fff;
+       flex:1;
+       margin:0px;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div1:before
+    {
+       display:none;
+    }
+    .workflow-div1:after
+    {
+       display:none;
+    }
+    .workflow-outerdiv2:before
+    {
+       display:none;                          
+    }
+    .workflow-div02
+    {
+        height:100%;
+        margin:0px;
+    }
+    .workflow-div2
+    {
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-radius:10px;
+        margin:0px;
+    }
+    .workflow-div2:before
+    {
+       display:none;             
+    }
+    .workflow-div2:after
+    {
+       display:none;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div02:before
+    {
+       display:none;
+    }
+}
+@media(max-width:912px)
+{
+    header.desktop-menu nav ul li
+    {
+        width: 100%;
+        margin-bottom:10px;
+        display: block;
+    }
+    header.desktop-menu nav ul li a
+    {
+        color:#000;
+    }
+    header.desktop-menu .collapse-menu 
+    {
+        padding: 0px !important;
+        height: 0;
+        overflow: hidden;
+        transition: height .3s ease;
+        width:100%;
+    }
+    header.desktop-menu .collapse-menu.show 
+    {
+        height: 219px;
+        background: #fff;
+        padding: 10px 0 0 !important;
+    }
+    header.desktop-menu .toggle
+    {
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    .banner-details h1
+    {
+        font-size: 50px;
+    }
+    .display-none01
+    {
+        display:none;
+    }
+    .workflow-outer:before
+    {
+        display:none;
+    }
+    .workflow-div1
+    {
+        margin:0px;
+    }
+    .workflow-div01
+    {
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        flex:1;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div1:before
+    {
+        display:none;
+    }
+    .workflow-div1:after
+    {
+        display:none;
+    }
+    .workflow-outerdiv2:before
+    {
+        display:none;                          
+    }
+    .workflow-div02
+    {
+        height:100%;
+    }
+    .workflow-div2
+    {
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-radius:10px;
+        margin:0px;
+    }
+    .workflow-div2:before
+    {
+        display:none;             
+    }
+    .workflow-div2:after
+    {
+        display:none;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div02:before
+    {
+        display:none;
+    }
+    .social-icon1
+    {
+        display: none;
+    }
+    .social-icon2
+    {
+        display: none;
+    }
+    section.worfkflow-section .workflow-div2
+    {
+        height: 100%;
+    }
+    .glow1
+    {
+        display: none;
+    }
+    .glow2
+    {
+        display: none;
+    }
+    .glow3
+    {
+        display: none;
+    }
+    .glow4
+    {
+        display: none;
+    }
+    .glow5
+    {
+        display: none;
+    }
+    .glow6
+    {
+        display: none;
+    }
+    .glow7
+    {
+        display: none;
+    }
+    .glow8
+    {
+        display: none;
+    }
+    .progress-bar-banner1
+    {
+        display: none;
+    }
+    .progress-bar-banner2
+    {
+        display: none;
+    }
+    .progress-bar-banner3
+    {
+        display: none;
+    }
+    .progress-bar-banner4
+    {
+        display: none;
+    }
+    .progress-bar-banner5
+    {
+        display: none;
+    }
+    .progress-bar-banner6
+    {
+        display: none;
+    }
+    section.homebanner .form
+    {
+        width: 100%;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper:before
+    {
+        width:851px;
+    }
+    .title
+    {
+        font-size: 28px !important;
+    }
+    .small-heading
+    {
+        font-size: 26px !important;
+    }
+    section.packages-section
+    {
+        overflow: hidden;
+    }
+    .creativestrategies-rightimg
+    {
+        margin-top:30px;
+    }
+
+}
+@media(max-width:768px)
+{
+    header.desktop-menu nav ul li
+    {
+        width: 100%;
+        margin-bottom:10px;
+        display: block;
+    }
+    header.desktop-menu nav ul li a
+    {
+        color:#000;
+    }
+    header.desktop-menu .collapse-menu 
+    {
+        padding: 0px !important;
+        height: 0;
+        overflow: hidden;
+        transition: height .3s ease;
+        width:100%;
+    }
+    header.desktop-menu .collapse-menu.show 
+    {
+        height: 219px;
+        background: #fff;
+        padding: 10px 0 0 !important;
+    }
+    header.desktop-menu .toggle
+    {
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    .banner-details h1
+    {
+        font-size: 50px;
+    }
+    .display-none01
+    {
+        display:none;
+    }
+    .workflow-outer:before
+    {
+        display:none;
+    }
+    .workflow-div1
+    {
+        margin:0px;
+    }
+    .workflow-div01
+    {
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        flex:1;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div1:before
+    {
+        display:none;
+    }
+    .workflow-div1:after
+    {
+        display:none;
+    }
+    .workflow-outerdiv2:before
+    {
+        display:none;                          
+    }
+    .workflow-div02
+    {
+        height:100%;
+    }
+    .workflow-div2
+    {
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-radius:10px;
+        margin:0px;
+    }
+    .workflow-div2:before
+    {
+        display:none;             
+    }
+    .workflow-div2:after
+    {
+        display:none;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div02:before
+    {
+        display:none;
+    }
+    .social-icon1
+    {
+        display: none;
+    }
+    .social-icon2
+    {
+        display: none;
+    }
+    section.worfkflow-section .workflow-div2
+    {
+        height: 100%;
+    }
+    .glow1
+    {
+        display: none;
+    }
+    .glow2
+    {
+        display: none;
+    }
+    .glow3
+    {
+        display: none;
+    }
+    .glow4
+    {
+        display: none;
+    }
+    .glow5
+    {
+        display: none;
+    }
+    .glow6
+    {
+        display: none;
+    }
+    .glow7
+    {
+        display: none;
+    }
+    .glow8
+    {
+        display: none;
+    }
+    .progress-bar-banner1
+    {
+        display: none;
+    }
+    .progress-bar-banner2
+    {
+        display: none;
+    }
+    .progress-bar-banner3
+    {
+        display: none;
+    }
+    .progress-bar-banner4
+    {
+        display: none;
+    }
+    .progress-bar-banner5
+    {
+        display: none;
+    }
+    .progress-bar-banner6
+    {
+        display: none;
+    }
+    section.homebanner .form
+    {
+        width: 100%;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper:before
+    {
+        width:851px;
+    }
+    .title
+    {
+        font-size: 28px !important;
+    }
+    .small-heading
+    {
+        font-size: 26px !important;
+    }
+
+}
+@media(max-width:576px)
+{
+    header.desktop-menu nav ul li
+    {
+        width: 100%;
+        margin-bottom:10px;
+        display: block;
+    }
+    header.desktop-menu nav ul li a
+    {
+        color:#000;
+    }
+    header.desktop-menu .collapse-menu 
+    {
+        height: 0;
+        overflow: hidden;
+        transition: height .3s;
+        width:100%;
+    }
+    header.desktop-menu .collapse-menu.show 
+    {
+        padding:20px 0;
+        height: 215px;
+    }
+    header.desktop-menu .toggle
+    {
+        display: block;
+    }
+    .display-none01
+    {
+       display:none;
+    }
+   .workflow-heading h3 
+   {
+       font-size: 17px;
+   }
+    .workflow-outer:before
+    {
+       display:none;
+    }
+    .workflow-div1
+    {
+        margin:0px;
+    }
+    .workflow-div01
+    {
+       border-top: 2px solid #fff;
+       border-left: 2px solid #fff;
+       border-right: 2px solid #fff;
+       border-bottom: 2px solid #fff;
+       flex:1;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div1:before
+    {
+       display:none;
+    }
+    .workflow-div1:after
+    {
+       display:none;
+    }
+    .workflow-outerdiv2:before
+    {
+       display:none;                          
+    }
+    .workflow-div02
+    {
+        height:100%;
+    }
+    .workflow-div2
+    {
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-radius:10px;
+        margin:0px;
+    }
+    .workflow-div2:before
+    {
+       display:none;             
+    }
+    .workflow-div2:after
+    {
+       display:none;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div02:before
+    {
+       display:none;
+    }
+    .workflow-div2
+    {
+        height:100%;
+        margin: 9px 0;
+    }
+    .workflow-outer
+    {
+        padding: 0;
+    }
+    .glow1
+    {
+        display: none;
+    }
+    .glow2
+    {
+        display: none;
+    }
+    .glow3
+    {
+        display: none;
+    }
+    .glow4
+    {
+        display: none;
+    }
+    .glow5
+    {
+        display: none;
+    }
+    .glow6
+    {
+        display: none;
+    }
+    .glow7
+    {
+        display: none;
+    }
+    .glow8
+    {
+        display: none;
+    }
+    .progress-bar-banner1
+    {
+        display: none;
+    }
+    .progress-bar-banner2
+    {
+        display: none;
+    }
+    .progress-bar-banner3
+    {
+        display: none;
+    }
+    .progress-bar-banner4
+    {
+        display: none;
+    }
+    .progress-bar-banner5
+    {
+        display: none;
+    }
+    .progress-bar-banner6
+    {
+        display: none;
+    }
+    .title
+    {
+        font-size: 24px !important;
+    }
+    .small-heading
+    {
+        font-size: 23px !important;
+    }
+    section.homebanner 
+    {
+        height: 800px;
+    }
+    section.homebanner .banner-details h1
+    {
+        font-size: 33px;
+    }
+    section.homebanner .form 
+    {
+        width: 90%;
+        bottom: -271px;
+    }
+    section.packages-section
+    {
+        overflow: hidden;
+    }
+    .priceing-slider
+    {
+        padding:0px;
+    }
+    section.socialpresence-section .link-area
+    {
+        margin-bottom:50px;
+    }
+    section.creativestrategies-section
+    {
+        padding-top: 220px;
+    }
+    .pricing-slider .owl-item:not(.center) .pricing-div 
+    {
+        transform: scale(1);
+    }
+    section.creativestrategies-section .creativestrategies-wrapper
+    {
+        background:#801CBB;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper:before
+    {
+        display: none;
+    }
+    .footer-menu ul li a
+    {
+        justify-content: center;
+        text-align: center;
+    }
+    .widget h5
+    {
+        text-align: center;
+    }
+    section.worfkflow-section .workflow-div01
+    {
+        height:100%;
+        margin: 20px 0 0;
+    }
+    section.worfkflow-section .workflow-div02
+    {
+        height:100%;
+        margin:0px;
+        padding:0px;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper
+    {
+        padding:20px;
+    }
+    .form form input
+    {
+        margin-bottom:20px;
+    }
+    .form form select
+    {
+        margin-bottom:20px;
+    }
+    .mt50 
+    {
+        margin-top: 115px;
+    }
+    .footer-logo
+    {
+        display: block;
+        margin: auto;
+    }
+    .creativestrategies-rightimg
+    {
+        margin-top:20px;
+    }
+}
+@media(max-width:540px)
+{
+    header.desktop-menu nav ul li
+    {
+        width: 100%;
+        margin-bottom:10px;
+        display: block;
+    }
+    header.desktop-menu nav ul li a
+    {
+        color:#000;
+    }
+    header.desktop-menu .collapse-menu 
+    {
+        height: 0;
+        overflow: hidden;
+        transition: height .3s;
+        width:100%;
+    }
+    header.desktop-menu .collapse-menu.show 
+    {
+        padding:20px 0;
+        height: 215px;
+    }
+    header.desktop-menu .toggle
+    {
+        display: block;
+    }
+    .display-none01
+    {
+       display:none;
+    }
+   .workflow-heading h3 
+   {
+       font-size: 17px;
+   }
+    .workflow-outer:before
+    {
+       display:none;
+    }
+    .workflow-div1
+    {
+        margin:0px;
+    }
+    .workflow-div01
+    {
+       border-top: 2px solid #fff;
+       border-left: 2px solid #fff;
+       border-right: 2px solid #fff;
+       border-bottom: 2px solid #fff;
+       flex:1;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div1:before
+    {
+       display:none;
+    }
+    .workflow-div1:after
+    {
+       display:none;
+    }
+    .workflow-outerdiv2:before
+    {
+       display:none;                          
+    }
+    .workflow-div02
+    {
+        height:100%;
+    }
+    .workflow-div2
+    {
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-radius:10px;
+        margin:0px;
+    }
+    .workflow-div2:before
+    {
+       display:none;             
+    }
+    .workflow-div2:after
+    {
+       display:none;
+    }
+    .workflow-div01:before
+    {
+        display:none;
+    }
+    .workflow-div02:before
+    {
+       display:none;
+    }
+    .workflow-div2
+    {
+        height:100%;
+        margin: 9px 0;
+    }
+    .workflow-outer
+    {
+        padding: 0;
+    }
+    .glow1
+    {
+        display: none;
+    }
+    .glow2
+    {
+        display: none;
+    }
+    .glow3
+    {
+        display: none;
+    }
+    .glow4
+    {
+        display: none;
+    }
+    .glow5
+    {
+        display: none;
+    }
+    .glow6
+    {
+        display: none;
+    }
+    .glow7
+    {
+        display: none;
+    }
+    .glow8
+    {
+        display: none;
+    }
+    .progress-bar-banner1
+    {
+        display: none;
+    }
+    .progress-bar-banner2
+    {
+        display: none;
+    }
+    .progress-bar-banner3
+    {
+        display: none;
+    }
+    .progress-bar-banner4
+    {
+        display: none;
+    }
+    .progress-bar-banner5
+    {
+        display: none;
+    }
+    .progress-bar-banner6
+    {
+        display: none;
+    }
+    .title
+    {
+        font-size: 24px !important;
+    }
+    .small-heading
+    {
+        font-size: 23px !important;
+    }
+    section.homebanner 
+    {
+        height: 800px;
+    }
+    section.homebanner .banner-details h1
+    {
+        font-size: 33px;
+    }
+    section.homebanner .form 
+    {
+        width: 90%;
+        bottom: -271px;
+    }
+    section.packages-section
+    {
+        overflow: hidden;
+    }
+    .priceing-slider
+    {
+        padding:0px;
+    }
+    section.socialpresence-section .link-area
+    {
+        margin-bottom:50px;
+    }
+    section.creativestrategies-section
+    {
+        padding-top: 220px;
+    }
+    .pricing-slider .owl-item:not(.center) .pricing-div 
+    {
+        transform: scale(1);
+    }
+    section.creativestrategies-section .creativestrategies-wrapper
+    {
+        background:#801CBB;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper:before
+    {
+        display: none;
+    }
+    .footer-menu ul li a
+    {
+        justify-content: center;
+        text-align: center;
+    }
+    .widget h5
+    {
+        text-align: center;
+    }
+    section.worfkflow-section .workflow-div01
+    {
+        height:100%;
+        margin: 20px 0 0;
+    }
+    section.worfkflow-section .workflow-div02
+    {
+        height:100%;
+        margin:0px;
+        padding:0px;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper
+    {
+        padding:20px;
+    }
+    .form form input
+    {
+        margin-bottom:20px;
+    }
+    .form form select
+    {
+        margin-bottom:20px;
+    }
+    .mt50 
+    {
+        margin-top: 115px;
+    }
+    .footer-logo
+    {
+        display: block;
+        margin: auto;
+    }
+    .creativestrategies-rightimg
+    {
+        margin-top:20px;
+    }
+    section.packages-section
+    {
+        overflow: hidden;
+    }
+    .testimonial-div
+    {
+        margin: 20px;
+    }
+}
