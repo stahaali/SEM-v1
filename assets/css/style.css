@@ -566,6 +566,8 @@ section.packages-section
     font-size: 16px;
     color:#fff;
     margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    width: fit-content;
 }
 
 /*socialpresence-section*/
