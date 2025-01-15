@@ -1090,6 +1090,10 @@ footer
     list-style: none;
     display: inline-block;
 }
+.social-iconslist ul li a
+{
+    text-decoration: none;
+}
 .social-iconslist ul li i
 {
     border:1px solid #801CBB;
