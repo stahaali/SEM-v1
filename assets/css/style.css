@@ -347,6 +347,10 @@ section.homebanner .link-btn a
     background:#fff;
     color:#000;
 }
+.form form textarea::placeholder
+{
+    padding:20px 0;
+}
 .form form Option
 {
     font-family: "Poppins", serif;
