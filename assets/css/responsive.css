@@ -749,6 +749,11 @@
     {
         font-size: 28px;
     }
+    .socialpresence-img:before
+    {
+        left: 9%;
+        top: -23px;
+    }
 }
 @media(max-width:540px)
 {
@@ -1018,5 +1023,10 @@
     section.homebanner .form h3
     {
         font-size: 28px;
+    }
+    .socialpresence-img:before
+    {
+        left: 9%;
+        top: -23px;
     }
 }
