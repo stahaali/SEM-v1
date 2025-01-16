@@ -322,7 +322,7 @@ section.homebanner .dots-bg
 .glow3
 {
     position: absolute;
-    right: -130px;
+    right: 0;
     top: -237px;
     width: 200px;
     height: 276px;
@@ -569,6 +569,7 @@ section.packages-section
     background: url('../images/packages/packages-bg.webp') no-repeat;
     background-size: cover;
     padding-bottom:70px;
+    overflow: hidden;
 }
 .pricing-slider .owl-item .pricing-div
 {
@@ -672,6 +673,7 @@ section.socialpresence-section
 {
     position: relative;
     background: #151515;
+    overflow: hidden;
 }
 section.socialpresence-section .title
 {
