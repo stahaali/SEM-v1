@@ -754,6 +754,12 @@
         left: 9%;
         top: -23px;
     }
+    .social-iconslist 
+    {
+        width: fit-content;
+        display: block;
+        margin: auto;
+    }
 }
 @media(max-width:540px)
 {
@@ -1028,5 +1034,11 @@
     {
         left: 9%;
         top: -23px;
+    }
+    .social-iconslist 
+    {
+        width: fit-content;
+        display: block;
+        margin: auto;
     }
 }
