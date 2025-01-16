@@ -1,3 +1,57 @@
+@media(max-width:1900px)
+{
+    section.homebanner .progress-bar-banner1 
+    {
+        left: -322px;
+    }
+    section.homebanner .progress-bar-banner2
+    {
+        left: -316px;
+    }
+    section.homebanner .progress-bar-banner3
+    {
+        left: -317px;
+    }
+    section.homebanner .progress-bar-banner4
+    {
+        right: -322px;
+    }
+    section.homebanner .progress-bar-banner5
+    {
+        right: -317px;
+    }
+    section.homebanner .progress-bar-banner6
+    {
+        right: -319px;
+    }
+}
+@media(max-width:1600px)
+{
+    section.homebanner .progress-bar-banner1 
+    {
+        left: -166px;
+    }
+    section.homebanner .progress-bar-banner2
+    {
+        left: -161px;
+    }
+    section.homebanner .progress-bar-banner3
+    {
+        left: -163px;
+    }
+    section.homebanner .progress-bar-banner4
+    {
+        right: -166px;
+    }
+    section.homebanner .progress-bar-banner5
+    {
+        right: -160px;
+    }
+    section.homebanner .progress-bar-banner6
+    {
+        right: -162px;
+    }
+}
 @media(max-width:1366px)
 {
     body
