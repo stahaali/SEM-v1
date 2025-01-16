@@ -410,12 +410,14 @@ section.homebanner .dots-bg
     box-shadow: 0 0 13px 2px #701084;
     background:#701084;
     filter: blur(100px);
+    animation: moveHorizontal 2s infinite;
+    animation-direction: alternate;
 }
 .glow6
 {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 61px;
     width: 150px;
     height: 150px;
     border-radius: 200px;
@@ -560,7 +562,7 @@ section.homebanner .link-btn a
 section.creativestrategies-section
 {
     position: relative;
-    background: #151515;
+    background: #1c1b1c;
     margin-bottom: -1px;
 }
 section.creativestrategies-section .container
@@ -610,7 +612,7 @@ section.creativestrategies-section .container
 {
     position: relative;
     z-index: 1;
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
     display: block;
 }
@@ -623,21 +625,24 @@ section.packages-section
     background: url('../images/packages/packages-bg.webp') no-repeat;
     background-size: cover;
     padding-bottom:70px;
-    overflow: hidden;
+    margin-bottom: -1px;
 }
 .pricing-slider .owl-item .pricing-div
 {
     transition: all 0.3s;
+    margin:20px;
 }
 .package-icon
 {
     max-width: 100px;
+    height: 60px;
+    object-fit: contain;
     margin: auto;
     margin-bottom:20px;
 }
 .pricing-div
 {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 20px 20px 35px 20px;
 }
@@ -652,6 +657,11 @@ section.packages-section
     color:#fff;
     margin-bottom:10px;
     padding-left:20px;
+}
+.pricing-details ul li i
+{
+    margin-right:5px;
+    font-size: 14px;
 }
 .pricing-details ul li:before
 {
@@ -696,8 +706,9 @@ section.packages-section
 .pricing-slider .owl-item .pricing-div 
 {
     transform: scale(1);
+    background-color: rgba(0, 0, 0, 0.2);
 }
-.pricing-slider .owl-item.center .pricing-div 
+.pricing-slider .owl-item.center .pricing-div
 {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -712,13 +723,12 @@ section.packages-section
     text-align: center;
     margin-bottom:20px;
 }
-.pricing-details h5
+.pricing-div h4
 {
     font-size: 16px;
     color:#fff;
     margin-bottom: 20px;
-    border-bottom: 2px solid #fff;
-    width: fit-content;
+    text-align: center;
 }
 
 /*socialpresence-section*/
@@ -727,7 +737,6 @@ section.socialpresence-section
 {
     position: relative;
     background: #151515;
-    overflow: hidden;
 }
 section.socialpresence-section .title
 {
@@ -768,6 +777,19 @@ section.socialpresence-section .small-heading
     margin: auto;
     position: relative;
 }
+.socialpresence-img:before
+{
+    content:'';
+    position: absolute;
+    left: 28%;
+    top: -48px;
+    width: 300px;
+    height: 300px;
+    background: url('../images/socialpresence/2.webp') no-repeat;
+    background-size: contain;
+    display: block;
+    margin: auto;
+}
 
 /*worfkflow-section*/
 
@@ -806,7 +828,7 @@ section.worfkflow-section
     right: 49%;
     bottom: -2px;
     width: 2px;
-    height: 16px;
+    height: 21px;
     background: #fff;
     transform: translate(-50%, 0);
 }
