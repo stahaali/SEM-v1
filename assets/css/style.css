@@ -712,19 +712,6 @@ section.socialpresence-section .small-heading
     margin: auto;
     position: relative;
 }
-.socialpresence-img:before
-{
-    content:'';
-    position: absolute;
-    left: 28%;
-    top: -48px;
-    width: 300px;
-    height: 300px;
-    background: url('../images/socialpresence/2.webp') no-repeat;
-    background-size: contain;
-    display: block;
-    margin: auto;
-}
 
 /*worfkflow-section*/
 
