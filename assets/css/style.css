@@ -715,11 +715,12 @@ section.packages-section
 }
 .pricing-slider .owl-item .pricing-div 
 {
-    transform: scale(0.8);
+    transform: scale(0.7);
     background-color: rgba(0, 0, 0, 0.2);
 }
 .pricing-slider .owl-item.center .pricing-div
 {
+    transform: scale(0.9);
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
