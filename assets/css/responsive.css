@@ -732,9 +732,9 @@
     {
         margin-bottom:20px;
     }
-    .mt50 
+    section.creativestrategies-section .mt50 
     {
-        margin-top: 115px;
+        margin-top: 130px;
     }
     .footer-logo
     {
@@ -744,6 +744,10 @@
     .creativestrategies-rightimg
     {
         margin-top:20px;
+    }
+    .form h3
+    {
+        font-size: 28px;
     }
 }
 @media(max-width:540px)
@@ -989,9 +993,9 @@
     {
         margin-bottom:20px;
     }
-    .mt50 
+    section.creativestrategies-section .mt50 
     {
-        margin-top: 115px;
+        margin-top: 130px;
     }
     .footer-logo
     {
@@ -1009,5 +1013,9 @@
     .testimonial-div
     {
         margin: 20px;
+    }
+    .form h3
+    {
+        font-size: 28px;
     }
 }
