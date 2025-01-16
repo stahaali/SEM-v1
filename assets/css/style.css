@@ -138,6 +138,7 @@ section.homebanner .dots-bg
     box-shadow: 0 0 13px 2px #701084;
     transform: rotate(-45deg); 
     animation: progressBarAnimation 2s infinite ease-in-out;
+    animation-delay: 1s;
 }
 @keyframes progressBarAnimation 
 {
@@ -194,6 +195,7 @@ section.homebanner .dots-bg
     box-shadow: 0 0 13px 2px #701084;
     transform: rotate(-45deg);
     animation: progressBarAnimation3 2s infinite ease-in-out;
+    animation-delay: 0.4s;
 }
 @keyframes progressBarAnimation3
 {
@@ -221,6 +223,7 @@ section.homebanner .dots-bg
     box-shadow: 0 0 13px 2px #701084;
     transform: rotate(45deg);
     animation: progressBarAnimation4 2s infinite ease-in-out;
+    animation-delay: 1s;
 }
 @keyframes progressBarAnimation4
 {
@@ -277,6 +280,7 @@ section.homebanner .dots-bg
     box-shadow: 0 0 13px 2px #701084;
     transform: rotate(45deg);
     animation: progressBarAnimation5 2s infinite ease-in-out;
+    animation-delay: 0.4s;
 }
 @keyframes progressBarAnimation6
 {
