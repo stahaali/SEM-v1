@@ -127,21 +127,37 @@ section.homebanner .dots-bg
     color:#ffff;
     margin-bottom:35px;
 }
-.progress-bar-banner1
+.progress-bar-banner1 
 {
     position: absolute;
-    left: -169px;
+    left: -166px;
     bottom: -27px;
     width: 250px;
     height: 2px;
-    background:#701084;
+    background: #701084;
     box-shadow: 0 0 13px 2px #701084;
-    transform: rotate(-45deg);
+    transform: rotate(-45deg); 
+    animation: progressBarAnimation 2s infinite ease-in-out;
+}
+@keyframes progressBarAnimation 
+{
+    0% 
+    {
+        transform: rotate(-45deg) scale(1); 
+    }
+    50% 
+    {
+        transform: rotate(-45deg) scale(1.2); 
+    }
+    100% 
+    {
+        transform: rotate(-45deg) scale(1); 
+    }
 }
 .progress-bar-banner2
 {
     position: absolute;
-    left: -162px;
+    left: -161px;
     bottom: -80px;
     width: 200px;
     height: 2px;
@@ -149,11 +165,27 @@ section.homebanner .dots-bg
     background:#0098ff;
     box-shadow: 0 0 13px 2px #0098ff;
     transform: rotate(-45deg);
+    animation: progressBarAnimation2 2s infinite ease-in-out;
+}
+@keyframes progressBarAnimation2 
+{
+    0% 
+    {
+        transform: rotate(-45deg) scale(1); 
+    }
+    50% 
+    {
+        transform: rotate(-45deg) scale(1.2); 
+    }
+    100% 
+    {
+        transform: rotate(-45deg) scale(1); 
+    }
 }
 .progress-bar-banner3
 {
     position: absolute;
-    left: -164px;
+    left: -163px;
     bottom: -119px;
     width: 200px;
     height: 2px;
@@ -161,17 +193,49 @@ section.homebanner .dots-bg
     background:#701084;
     box-shadow: 0 0 13px 2px #701084;
     transform: rotate(-45deg);
+    animation: progressBarAnimation3 2s infinite ease-in-out;
+}
+@keyframes progressBarAnimation3
+{
+    0% 
+    {
+        transform: rotate(-45deg) scale(1); 
+    }
+    50% 
+    {
+        transform: rotate(-45deg) scale(1.2); 
+    }
+    100% 
+    {
+        transform: rotate(-45deg) scale(1); 
+    }
 }
 .progress-bar-banner4
 {
     position: absolute;
-    right: -168px;
+    right: -166px;
     bottom: -27px;
     width: 250px;
     height: 2px;
     background:#701084;
     box-shadow: 0 0 13px 2px #701084;
     transform: rotate(45deg);
+    animation: progressBarAnimation4 2s infinite ease-in-out;
+}
+@keyframes progressBarAnimation4
+{
+    0% 
+    {
+        transform: rotate(45deg) scale(1); 
+    }
+    50% 
+    {
+        transform: rotate(45deg) scale(1.2); 
+    }
+    100% 
+    {
+        transform: rotate(45deg) scale(1); 
+    }
 }
 .progress-bar-banner5
 {
@@ -184,11 +248,27 @@ section.homebanner .dots-bg
     background:#0098ff;
     box-shadow: 0 0 13px 2px #0098ff;
     transform: rotate(45deg);
+    animation: progressBarAnimation5 2s infinite ease-in-out;
+}
+@keyframes progressBarAnimation5
+{
+    0% 
+    {
+        transform: rotate(45deg) scale(1); 
+    }
+    50% 
+    {
+        transform: rotate(45deg) scale(1.2); 
+    }
+    100% 
+    {
+        transform: rotate(45deg) scale(1); 
+    }
 }
 .progress-bar-banner6
 {
     position: absolute;
-    right: -161px;
+    right: -162px;
     bottom: -119px;
     width: 200px;
     height: 2px;
@@ -196,6 +276,22 @@ section.homebanner .dots-bg
     background:#701084;
     box-shadow: 0 0 13px 2px #701084;
     transform: rotate(45deg);
+    animation: progressBarAnimation5 2s infinite ease-in-out;
+}
+@keyframes progressBarAnimation6
+{
+    0% 
+    {
+        transform: rotate(45deg) scale(1); 
+    }
+    50% 
+    {
+        transform: rotate(45deg) scale(1.2); 
+    }
+    100% 
+    {
+        transform: rotate(45deg) scale(1); 
+    }
 }
 .glow1
 {
