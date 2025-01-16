@@ -309,24 +309,47 @@ section.homebanner .dots-bg
     background:#701084;
     filter: blur(100px);
     z-index: -1;
+    animation: moveUp 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes moveUp 
+{
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      }
+      100% {
+        -webkit-transform: translate(20px, 50px);
+        transform: translate(20px, 50px);
+      }
 }
 .glow2
 {
     position: absolute;
     left: 241px;
     top: -243px;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 200px;
     box-shadow: 0 0 13px 2px #4964D1;
     background:#4964D1;
     filter: blur(72px);
     z-index: -1;
+    animation: moveHorizontal 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes moveHorizontal {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(50px, 20px);
+    }
 }
 .glow3
 {
     position: absolute;
-    right: 0;
+    right: -130px;
     top: -237px;
     width: 200px;
     height: 276px;
@@ -335,19 +358,46 @@ section.homebanner .dots-bg
     background:#701084;
     filter: blur(100px);
     z-index: -1;
+    animation: moveUp 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes progressBarAnimation6
+{
+    0% 
+    {
+        transform: rotate(45deg) scale(1); 
+    }
+    50% 
+    {
+        transform: rotate(45deg) scale(1.2); 
+    }
+    100% 
+    {
+        transform: rotate(45deg) scale(1); 
+    }
 }
 .glow4
 {
     position: absolute;
-    right: 241px;
+    right: 183px;
     bottom: -243px;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 200px;
     box-shadow: 0 0 13px 2px #4964D1;
-    background:#4964D1;
+    background: #4964D1;
     filter: blur(72px);
     z-index: -1;
+    animation: moveHorizontal 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes moveHorizontal {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(50px, 20px);
+    }
 }
 .glow5
 {
