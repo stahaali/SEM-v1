@@ -130,7 +130,7 @@ section.homebanner .dots-bg
 .progress-bar-banner1
 {
     position: absolute;
-    left: -151px;
+    left: -169px;
     bottom: -27px;
     width: 250px;
     height: 2px;
@@ -141,7 +141,7 @@ section.homebanner .dots-bg
 .progress-bar-banner2
 {
     position: absolute;
-    left: -144px;
+    left: -162px;
     bottom: -80px;
     width: 200px;
     height: 2px;
@@ -153,7 +153,7 @@ section.homebanner .dots-bg
 .progress-bar-banner3
 {
     position: absolute;
-    left: -145px;
+    left: -163px;
     bottom: -119px;
     width: 200px;
     height: 2px;
@@ -403,6 +403,10 @@ section.homebanner .link-btn a
     display: block;
     font-family: "Poppins", serif;
     margin-top: 6px;
+}
+.form form textarea::placeholder
+{
+    padding:20px 0;
 }
 
 /*creativestrategies-section*/
