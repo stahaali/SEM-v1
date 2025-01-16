@@ -721,7 +721,6 @@ section.packages-section
 .pricing-slider .owl-item.center .pricing-div
 {
     background-color: rgba(0, 0, 0, 0.5);
-    opacity: 1;
 }
 .pricing-slider .owl-item:not(.center) .pricing-div 
 {
@@ -839,7 +838,7 @@ section.worfkflow-section
     right: 49%;
     bottom: -2px;
     width: 2px;
-    height: 21px;
+    height: 16px;
     background: #fff;
     transform: translate(-50%, 0);
 }
