@@ -37,7 +37,7 @@
     }
     section.homebanner .progress-bar-banner3
     {
-        left: -163px;
+        left: -168px;
     }
     section.homebanner .progress-bar-banner4
     {
@@ -45,11 +45,11 @@
     }
     section.homebanner .progress-bar-banner5
     {
-        right: -160px;
+        right: -161px;
     }
     section.homebanner .progress-bar-banner6
     {
-        right: -162px;
+        right: -177px;
     }
 }
 @media(max-width:1366px)
