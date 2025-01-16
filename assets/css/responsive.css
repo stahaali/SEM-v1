@@ -1002,9 +1002,10 @@
         display: block;
         margin: auto;
     }
-    .creativestrategies-rightimg
+    section.creativestrategies-section .creativestrategies-rightimg
     {
-        margin-top:20px;
+        margin-top: 40px;
+        max-width: 250px;
     }
     section.packages-section
     {
