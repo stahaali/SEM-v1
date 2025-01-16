@@ -75,7 +75,7 @@ header.desktop-menu ul li a
 section.homebanner
 {
     position: relative;
-    height: 641px;
+    height: 770px;
 }
 .overlay
 {
@@ -95,7 +95,7 @@ section.homebanner .dots-bg
     left:0;
     top:0;
     width: 100%;
-    height: 641px;
+    height: 770px;
     background:url('../images/shape1.webp') no-repeat;
     background-size: cover;
     z-index: 2;
