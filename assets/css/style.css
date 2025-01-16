@@ -1118,6 +1118,10 @@ section.testimonial-section
     background: url('../images/footer/footer-bg.webp') no-repeat;
     background-size: cover;
 }
+section.testimonial-section .small-heading:before
+{
+    background: #3A0075;
+}
 section.testimonial-section .col-lg-8
 {
     width: 100%;
