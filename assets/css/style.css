@@ -463,7 +463,7 @@ section.homebanner .link-btn a
     position: absolute;
     width: 80%;
     left:50%;
-    bottom: -265px;
+    bottom: -200px;
     padding: 20px 20px;
     border-radius: 10px;
     background:#801CBB;
@@ -715,18 +715,17 @@ section.packages-section
 }
 .pricing-slider .owl-item .pricing-div 
 {
-    transform: scale(0.7);
+    transform: scale(1);
     background-color: rgba(0, 0, 0, 0.2);
 }
 .pricing-slider .owl-item.center .pricing-div
 {
-    transform: scale(0.9);
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
 .pricing-slider .owl-item:not(.center) .pricing-div 
 {
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 .pricing-div h3
 {
