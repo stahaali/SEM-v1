@@ -645,10 +645,15 @@ section.packages-section
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 20px 20px 35px 20px;
+    opacity: 0.5;
 }
 .pricing-details h5
 {
     color:#fff;
+    font-size: 16px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid #fff;
+    width: fit-content;
 }
 .pricing-details ul
 {
@@ -661,6 +666,7 @@ section.packages-section
     color:#fff;
     margin-bottom:10px;
     padding-left:20px;
+    font-size: 14px;
 }
 .pricing-details ul li i
 {
