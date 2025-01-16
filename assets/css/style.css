@@ -715,7 +715,7 @@ section.packages-section
 }
 .pricing-slider .owl-item .pricing-div 
 {
-    transform: scale(1);
+    transform: scale(0.8);
     background-color: rgba(0, 0, 0, 0.2);
 }
 .pricing-slider .owl-item.center .pricing-div
