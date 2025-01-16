@@ -646,6 +646,10 @@ section.packages-section
     border-radius: 10px;
     padding: 20px 20px 35px 20px;
 }
+.pricing-details h5
+{
+    color:#fff;
+}
 .pricing-details ul
 {
     padding:0px;
