@@ -627,6 +627,17 @@ section.packages-section
     padding-bottom:70px;
     margin-bottom: -1px;
 }
+
+.owl-carousel.pricing-slider {
+    min-width: 115%;
+    margin-left: -7.5%;
+}
+
+.owl-carousel.pricing-slider .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
 .pricing-slider .owl-item .pricing-div
 {
     transition: all 0.3s;
@@ -719,13 +730,13 @@ section.packages-section
 }
 .pricing-slider .owl-item.center .pricing-div
 {
-    transform: scale(0.9);
+    transform: scale(1);
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
 .pricing-slider .owl-item:not(.center) .pricing-div 
 {
-    transform: scale(0.7);
+    transform: scale(0.75);
 }
 .pricing-div h3
 {
