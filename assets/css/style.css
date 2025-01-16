@@ -627,7 +627,10 @@ section.packages-section
     padding-bottom:70px;
     margin-bottom: -1px;
 }
-
+section.packages-section .small-heading:before
+{
+    background: #3A0075;
+}
 .owl-carousel.pricing-slider {
     min-width: 115%;
     margin-left: -7.5%;
