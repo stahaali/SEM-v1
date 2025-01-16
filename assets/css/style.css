@@ -726,7 +726,7 @@ section.packages-section
 }
 .pricing-slider .owl-item:not(.center) .pricing-div 
 {
-    transform: scale(0.9);
+    transform: scale(0.7);
 }
 .pricing-div h3
 {
