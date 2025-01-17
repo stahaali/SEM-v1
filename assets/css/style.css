@@ -462,12 +462,13 @@ section.homebanner .link-btn a
 {
     position: absolute;
     width: 80%;
-    left:50%;
+    left: 50%;
     bottom: -265px;
     padding: 20px 20px;
     border-radius: 10px;
-    background:#801CBB;
+    background: #801CBB;
     transform: translate(-50%, 50%);
+    z-index: 3;
 }
 .form form input
 {
