@@ -104,9 +104,9 @@ section.homebanner .dots-bg
 .absolute-center
 {
     position: absolute;
-    left:50%;
+    left: 50%;
     top: 46%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 3;
 }
 .banner-details
@@ -464,7 +464,7 @@ section.homebanner .link-btn a
     position: absolute;
     width: 80%;
     left:50%;
-    bottom: -265px;
+    bottom: 0;
     padding: 20px 20px;
     border-radius: 10px;
     background:#801CBB;
