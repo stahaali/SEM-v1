@@ -543,7 +543,7 @@
     }
     .form
     {
-        bottom:26%;
+        bottom:26% !important;
     }
 }
 @media(max-width:576px)
