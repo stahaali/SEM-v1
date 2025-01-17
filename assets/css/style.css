@@ -464,7 +464,7 @@ section.homebanner .link-btn a
     position: absolute;
     width: 80%;
     left:50%;
-    bottom: 0;
+    top: 68%;
     padding: 20px 20px;
     border-radius: 10px;
     background:#801CBB;
@@ -566,6 +566,7 @@ section.creativestrategies-section
     position: relative;
     background: #1c1b1c;
     margin-bottom: -1px;
+    overflow: hidden;
 }
 section.creativestrategies-section .container
 {
@@ -628,6 +629,7 @@ section.packages-section
     background-size: cover;
     padding-bottom:70px;
     margin-bottom: -1px;
+    overflow: hidden;
 }
 section.packages-section .small-heading:before
 {
@@ -764,6 +766,7 @@ section.socialpresence-section
 {
     position: relative;
     background: #151515;
+    overflow: hidden;
 }
 section.socialpresence-section .title
 {
@@ -864,7 +867,7 @@ section.worfkflow-section .small-heading:before
     right: 49%;
     bottom: -2px;
     width: 2px;
-    height: 21px;
+    height: 16px;
     background: #fff;
     transform: translate(-50%, 0);
 }
