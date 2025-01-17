@@ -549,6 +549,10 @@
     {
         margin-bottom:20px;
     }
+    .mt501 
+    {
+        margin-top: 0;
+    }
 }
 @media(max-width:576px)
 {
@@ -824,6 +828,10 @@
     .mb-20
     {
         margin-bottom:20px;
+    }
+    .mt501 
+    {
+        margin-top: 0;
     }
 }
 @media(max-width:540px)
@@ -1104,5 +1112,9 @@
     .mb-20
     {
         margin-bottom:20px;
+    }
+    .mt501 
+    {
+        margin-top: 0;
     }
 }
