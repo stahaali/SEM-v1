@@ -545,6 +545,10 @@
     {
         bottom:26% !important;
     }
+    .mb-20
+    {
+        margin-bottom:20px;
+    }
 }
 @media(max-width:576px)
 {
@@ -816,6 +820,10 @@
         width: fit-content;
         display: block;
         margin: auto;
+    }
+    .mb-20
+    {
+        margin-bottom:20px;
     }
 }
 @media(max-width:540px)
@@ -1092,5 +1100,9 @@
         width: fit-content;
         display: block;
         margin: auto;
+    }
+    .mb-20
+    {
+        margin-bottom:20px;
     }
 }
