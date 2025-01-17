@@ -823,6 +823,10 @@
     {
         margin-top:20px;
     }
+    .form
+    {
+        bottom:0 !important;
+    }
     .form h3
     {
         font-size: 28px;
@@ -1081,6 +1085,10 @@
     section.creativestrategies-section .creativestrategies-wrapper
     {
         padding:20px;
+    }
+    .form
+    {
+        bottom:0 !important;
     }
     .form form input
     {
