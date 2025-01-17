@@ -541,7 +541,10 @@
     {
         font-size: 26px !important;
     }
-
+    .form
+    {
+        top:50%;
+    }
 }
 @media(max-width:576px)
 {
