@@ -34,7 +34,7 @@
         width: 1049px;
     }
 }
-@media(max-width:1600px)
+@media(max-width:1600px) and (min-width:1200px)
 {
     section.homebanner .progress-bar-banner1 
     {
