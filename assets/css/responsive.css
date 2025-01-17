@@ -423,27 +423,27 @@
         border-bottom: 2px solid #fff;
         flex:1;
     }
-    .workflow-div01:before
+    section.worfkflow-section .workflow-div01:before
     {
         display:none;
     }
-    .workflow-div1:before
+    section.worfkflow-section .workflow-div1:before
     {
         display:none;
     }
-    .workflow-div1:after
+    section.worfkflow-section .workflow-div1:after
     {
         display:none;
     }
-    .workflow-outerdiv2:before
+    section.worfkflow-section .workflow-outerdiv2:before
     {
         display:none;                          
     }
-    .workflow-div02
+    section.worfkflow-section .workflow-div02
     {
         height:100%;
     }
-    .workflow-div2
+    section.worfkflow-section .workflow-div2
     {
         border-top: 2px solid #fff;
         border-left: 2px solid #fff;
@@ -452,19 +452,19 @@
         border-radius:10px;
         margin:0px;
     }
-    .workflow-div2:before
+    section.worfkflow-section .workflow-div2:before
     {
         display:none;             
     }
-    .workflow-div2:after
+    section.worfkflow-section .workflow-div2:after
     {
         display:none;
     }
-    .workflow-div01:before
+    section.worfkflow-section .workflow-div01:before
     {
         display:none;
     }
-    .workflow-div02:before
+    section.worfkflow-section .workflow-div02:before
     {
         display:none;
     }
@@ -556,11 +556,11 @@
     {
         bottom:26% !important;
     }
-    .mb-20
+    section.worfkflow-section .mb-20
     {
         margin-bottom:20px;
     }
-    .mt501 
+    section.worfkflow-section .mt501 
     {
         margin-top: 0 !important;
     }
@@ -597,19 +597,19 @@
     {
        display:none;
     }
-   .workflow-heading h3 
+    section.worfkflow-section .workflow-heading h3 
    {
        font-size: 17px;
    }
-    .workflow-outer:before
+   section.worfkflow-section .workflow-outer:before
     {
        display:none;
     }
-    .workflow-div1
+    section.worfkflow-section .workflow-div1
     {
         margin:0px;
     }
-    .workflow-div01
+    section.worfkflow-section .workflow-div01
     {
        border-top: 2px solid #fff;
        border-left: 2px solid #fff;
@@ -617,27 +617,27 @@
        border-bottom: 2px solid #fff;
        flex:1;
     }
-    .workflow-div01:before
+    section.worfkflow-section .workflow-div01:before
     {
         display:none;
     }
-    .workflow-div1:before
+    section.worfkflow-section .workflow-div1:before
     {
        display:none;
     }
-    .workflow-div1:after
+    section.worfkflow-section .workflow-div1:after
     {
        display:none;
     }
-    .workflow-outerdiv2:before
+    section.worfkflow-section .workflow-outerdiv2:before
     {
        display:none;                          
     }
-    .workflow-div02
+    section.worfkflow-section .workflow-div02
     {
         height:100%;
     }
-    .workflow-div2
+    section.worfkflow-section .workflow-div2
     {
         border-top: 2px solid #fff;
         border-left: 2px solid #fff;
@@ -646,28 +646,28 @@
         border-radius:10px;
         margin:0px;
     }
-    .workflow-div2:before
+    section.worfkflow-section .workflow-div2:before
     {
        display:none;             
     }
-    .workflow-div2:after
+    section.worfkflow-section .workflow-div2:after
     {
        display:none;
     }
-    .workflow-div01:before
+    section.worfkflow-section .workflow-div01:before
     {
         display:none;
     }
-    .workflow-div02:before
+    section.worfkflow-section .workflow-div02:before
     {
        display:none;
     }
-    .workflow-div2
+    section.worfkflow-section .workflow-div2
     {
         height:100%;
         margin: 9px 0;
     }
-    .workflow-outer
+    section.worfkflow-section .workflow-outer
     {
         padding: 0;
     }
@@ -836,11 +836,11 @@
         display: block;
         margin: auto;
     }
-    .mb-20
+    section.worfkflow-section .mb-20
     {
         margin-bottom:20px;
     }
-    .mt501 
+    section.worfkflow-section .mt501 
     {
         margin-top: 0 !important;
     }
@@ -1120,11 +1120,11 @@
         display: block;
         margin: auto;
     }
-    .mb-20
+    section.worfkflow-section .mb-20
     {
         margin-bottom:20px;
     }
-    .mt501 
+    section.worfkflow-section .mt501 
     {
         margin-top: 0 !important;
     }
