@@ -26,7 +26,7 @@
     }
     .form
     {
-        top: 51% !important;
+        top: 63%;
     }
     section.creativestrategies-section .creativestrategies-wrapper:before
     {
@@ -34,7 +34,7 @@
         width: 1049px;
     }
 }
-@media(max-width:1600px) and (min-width:1200px)
+@media(max-width:1600px) and (min-width:768px)
 {
     section.homebanner .progress-bar-banner1 
     {
@@ -62,10 +62,10 @@
     }
     .form
     {
-        top: 104%;
+        top: 66%;
     }
 }
-@media(max-width:1366px)
+@media(max-width:1366px) 
 {
     body
     {
@@ -100,7 +100,7 @@
     }
     section.creativestrategies-section .creativestrategies-wrapper:before
     {
-        width: 787px;
+        width: 943px;
     }
     section.creativestrategies-section .creativestrategies-rightimg
     {
@@ -134,17 +134,13 @@
     {
         top: 62%;
     }
-    .form 
+    .form
     {
-        top: 67% !important;
+        top: 67%;
     }
 }
 @media(max-width:1024px)
 {
-    header.desktop-menu ul li a
-    {
-        font-size: 13px;
-    }
     .display-none01
     {
        display:none;
@@ -216,18 +212,6 @@
     section.worfkflow-section .workflow-div02:before
     {
        display:none;
-    }
-    .form
-    {
-        top: 37% !important;
-    }
-    section.creativestrategies-section .creativestrategies-wrapper:before
-    {
-        width: 680px;
-    }
-    section.creativestrategies-section .creativestrategies-rightimg
-    {
-        max-width: 400px;
     }
 }
 @media(max-width:912px)
@@ -305,6 +289,7 @@
     section.worfkflow-section .workflow-div02
     {
         height:100%;
+        padding: 0px;
     }
     section.worfkflow-section .workflow-div2
     {
@@ -403,10 +388,6 @@
     {
         width: 100%;
     }
-    section.creativestrategies-section .creativestrategies-wrapper:before
-    {
-        width: 481px;
-    }
     .title
     {
         font-size: 28px !important;
@@ -415,25 +396,25 @@
     {
         font-size: 26px !important;
     }
-    section.packages-section
+    .form 
     {
-        overflow: hidden;
+        top: 37% !important;
     }
-    section.creativestrategies-section .creativestrategies-rightimg
-    {
-        margin-top:30px;
-    }
-    .form
-    {
-        top: 35% !important;
-    }
-    section.worfkflow-section .mb-20
+    .mb-20
     {
         margin-bottom:20px;
     }
-    section.worfkflow-section .mt501 
+    .mt501 
     {
-        margin-top: 0 !important;
+        margin-top: 0;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper:before
+    {
+        width: 481px;
+    }
+    section.creativestrategies-section .creativestrategies-rightimg
+    {
+        max-width: 100%;
     }
 }
 @media(max-width:820px)
@@ -511,7 +492,6 @@
     section.worfkflow-section .workflow-div02
     {
         height:100%;
-        width: 100%;
         padding: 0px;
     }
     section.worfkflow-section .workflow-div2
@@ -611,10 +591,6 @@
     {
         width: 100%;
     }
-    section.creativestrategies-section .creativestrategies-wrapper:before
-    {
-        width: 481px;
-    }
     .title
     {
         font-size: 28px !important;
@@ -623,17 +599,25 @@
     {
         font-size: 26px !important;
     }
-    .form
+    .form 
     {
         top: 41% !important;
     }
-    section.worfkflow-section .mb-20
+    .mb-20
     {
         margin-bottom:20px;
     }
-    section.worfkflow-section .mt501 
+    .mt501 
     {
-        margin-top: 0 !important;
+        margin-top: 0;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper:before
+    {
+        width: 481px;
+    }
+    section.creativestrategies-section .creativestrategies-rightimg
+    {
+        max-width: 100%;
     }
 }
 @media(max-width:768px)
@@ -711,7 +695,6 @@
     section.worfkflow-section .workflow-div02
     {
         height:100%;
-        width: 100%;
         padding: 0px;
     }
     section.worfkflow-section .workflow-div2
@@ -811,10 +794,6 @@
     {
         width: 100%;
     }
-    section.creativestrategies-section .creativestrategies-wrapper:before
-    {
-        width: 481px;
-    }
     .title
     {
         font-size: 28px !important;
@@ -823,17 +802,25 @@
     {
         font-size: 26px !important;
     }
-    .form
+    .form 
     {
         top: 47% !important;
     }
-    section.worfkflow-section .mb-20
+    .mb-20
     {
         margin-bottom:20px;
     }
-    section.worfkflow-section .mt501 
+    .mt501 
     {
-        margin-top: 0 !important;
+        margin-top: 0;
+    }
+    section.creativestrategies-section .creativestrategies-wrapper:before
+    {
+        width: 481px;
+    }
+    section.creativestrategies-section .creativestrategies-rightimg
+    {
+        max-width: 100%;
     }
 }
 @media(max-width:576px)
@@ -896,7 +883,7 @@
     {
        display:none;
     }
-    section.worfkflow-section .workflow-div1:after
+    section.worfkflow-section.workflow-div1:after
     {
        display:none;
     }
@@ -1023,29 +1010,13 @@
     {
         overflow: hidden;
     }
-    section.packages-section .pricing-details ul 
+    section.packages-section .pricing-details ul
     {
-        padding: 2rem;
+        padding:2rem
     }
-    section.packages-section .pricing-details h5
-    {
-        margin-left: 35px;
-    }
-    section.packages-section .priceing-slider
+    .priceing-slider
     {
         padding:0px;
-    }
-    section.packages-section .pricing-slider .owl-dots
-    {
-        display: none;
-    }
-    section.socialpresence-section .link-area
-    {
-        margin-bottom:50px;
-    }
-    section.creativestrategies-section
-    {
-        padding-top: 220px;
     }
     .pricing-slider .owl-item:not(.center) .pricing-div 
     {
@@ -1062,6 +1033,18 @@
     section.packages-section .owl-carousel.pricing-slider .owl-stage
     {
         display: block;
+    }
+    section.socialpresence-section .link-area
+    {
+        margin-bottom:50px;
+    }
+    section.creativestrategies-section
+    {
+        padding-top: 220px;
+    }
+    .pricing-slider .owl-item:not(.center) .pricing-div 
+    {
+        transform: scale(1);
     }
     section.creativestrategies-section .creativestrategies-wrapper:before
     {
@@ -1091,10 +1074,6 @@
     {
         padding:20px;
     }
-    .form h3
-    {
-        font-size:25px !important;
-    }
     .form form input
     {
         margin-bottom:20px;
@@ -1116,13 +1095,9 @@
     {
         margin-top:20px;
     }
-    .form
-    {
-        top: 42% !important;
-    }
     .form h3
     {
-        font-size: 28px;
+        font-size: 25px !important;
     }
     .socialpresence-img:before
     {
@@ -1135,14 +1110,14 @@
         display: block;
         margin: auto;
     }
-    section.worfkflow-section .mb-20
+    .mb-20
     {
         margin-bottom:20px;
     }
-    section.worfkflow-section .mt501 
+    .mt501 
     {
-        margin-top: 0 !important;
-    }
+        margin-top: 0;
+    }    
 }
 @media(max-width:540px)
 {
@@ -1379,10 +1354,6 @@
     {
         padding:20px;
     }
-    .form
-    {
-        top: 0;
-    }
     .form form input
     {
         margin-bottom:20px;
@@ -1415,7 +1386,7 @@
     }
     section.homebanner .form h3
     {
-        font-size: 28px;
+        font-size: 25px;
     }
     .social-iconslist 
     {
@@ -1423,12 +1394,12 @@
         display: block;
         margin: auto;
     }
-    section.worfkflow-section .mb-20
+    .mb-20
     {
         margin-bottom:20px;
     }
-    section.worfkflow-section .mt501 
+    .mt501 
     {
-        margin-top: 0 !important;
+        margin-top: 0;
     }
 }
